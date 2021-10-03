@@ -1,0 +1,175 @@
+:root {
+    --font-reenie: 'Reenie Beanie', cursive;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-reenie);
+
+}
+
+
+body {
+    background: black;
+    font-family: 'Arial', Times, serif;
+    color: #fff;
+}
+
+header{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 5%;
+    font-size: 2.5rem;
+}
+
+#topo #logo img {
+    width: 90%;
+    align-items: center;
+    
+}
+
+#menu nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#menu nav a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+#inicio{
+    width: 90%;
+    margin: auto;
+    background: black;
+    color: white;
+    height: 800px;
+    text-align: center;
+}
+
+#texthome {
+    padding-top: 1%;
+    width: 100%;    
+    font-size: 2.8rem;
+    position: relative;
+}
+
+#ftinicio {
+    width: 463px;
+    height: 600px;
+    margin: auto;
+    padding-top: 1%;
+}
+
+#ftinicio img {
+    width: 98%;
+}
+
+#jobs {
+    width: 90%;
+    margin: auto;
+    height: 1000px;
+    text-align: center;
+    font-size: 2.8rem;
+    background: white;
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+#jobs #ftrabalho img{
+    width: 40%;
+    margin: auto;
+}
+
+
+#meio {
+    width: 90%;
+    margin: auto;
+    height: 800px;
+    text-align: center;
+    background: black;
+    color: white;    
+    font-size: 3.5rem;
+
+}
+
+#quemsomos {
+    padding-top: 4%;
+    padding-bottom: 2%;
+}
+
+
+#textbox {
+    text-align: justify;
+    margin: auto;
+    height: 50%;
+    width: 30%;
+}
+
+#description {
+    text-align: justify;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 2rem;
+}
+
+#rafadv {
+    height: 600px;
+    width: 400px;
+    margin: auto;
+    position: absolute;
+    right: 70%;
+    margin-top: -23%;
+
+}
+
+#nidv {
+    height: 600px;
+    width: 400px;
+    margin: auto;
+    position: absolute;
+    left: 70%;
+    margin-top: -23%;
+}
+
+#fim {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+    height: 400px;
+    font-size: 3.5rem;
+    padding: 40px;
+    background: white;
+    justify-content: space-between;
+    color: black;
+}
+
+#contato{
+    padding-top: 40px;
+    margin-bottom: -60px;
+}
+
+#fim ul  {
+    list-style: none;
+    margin: auto;
+    display: inline;
+    margin-left: 200px;
+}
+
